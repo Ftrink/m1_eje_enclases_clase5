@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>T-Complex</title>
+<style>
+    #plato{
+    padding: 3rem;
+    }
+    #plato * {
+    margin: 0 auto;    
+    }
+    .panes{
+        background-color: rgb(184, 139, 81);
+        min-width: 3rem;
+        min-height: 2rem;
+        max-width: 25rem;
+
+    }
+    #vianesa{
+        background-color: rgb(226, 93, 32);
+        min-height: 3.5rem;
+        width: 35rem;
+        border-radius: 5rem;
+        position: relative;
+        }
+    #vianesa * {
+        position: relative;
+        
+    }
+    #psup{
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        border-bottom-left-radius: 0.8rem;
+        border-bottom-right-radius: 0.8rem;
+        border-bottom: 0.4rem solid rgb(109, 62, 30) ;
+    }
+    #pinf{
+        border-bottom-right-radius: 2rem ;
+        border-bottom-left-radius: 2rem;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        border-top: 0.4rem solid rgb(109, 62, 30) ;
+
+    }
+</style>
+</head>
+<body>
+    <div id="plato"> 
+        <div id="psup" class="panes"></div>
+        <div id="vianesa"></div>
+        <div id="pinf" class="panes"></div>
+    </div>
+</body>
+</html>
